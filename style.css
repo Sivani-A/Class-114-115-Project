@@ -1,0 +1,13 @@
+canvas{
+    border: 2px solid black;
+    animation: MustacheFilter 5s infinite; 
+}
+.btn-success:hover{
+    background-color: rgb(4, 138, 71);
+}
+@keyframes MustacheFilter{
+    from{box-shadow: 1px 1px 38px purple; 
+    border: 3px dash yellow}
+    to{box-shadow: 1px 1px 38px red;
+    border: 3px solid blue}
+}
